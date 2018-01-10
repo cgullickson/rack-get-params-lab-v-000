@@ -38,4 +38,14 @@ class Application
     end
   end
 
+  def add_item(search_term)
+
+    if @@items.include?(search_term)
+      @@cart << search_term
+      return "added #{search_term} to your cart"
+    else
+      return "We don't have that item"
+    end
+  end
+
 end
