@@ -30,10 +30,10 @@ class Application
     end
   end
 
-  def cart 
+  def cart
     if @@cart.empty?
       "Your carty is empty"
-    else 
+    else
       @@cart
   end
 end
