@@ -29,4 +29,11 @@ class Application
       return "Couldn't find #{search_term}"
     end
   end
+
+  def cart 
+    if @@cart.empty?
+      "Your carty is empty"
+    else 
+      @@cart
+  end
 end
