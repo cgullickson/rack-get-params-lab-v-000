@@ -35,5 +35,6 @@ class Application
       "Your carty is empty"
     else
       @@cart
+    end
   end
 end
